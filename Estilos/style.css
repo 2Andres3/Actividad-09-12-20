@@ -1,0 +1,39 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 5px 30px;
+    border-bottom: 2px solid #1fb3ed;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .img {
+    width: 150px;
+    height: 150px;
+}
+
+header .tittle {
+    align-self: center;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 30%;
+}
+
+section {
+    width: 70;
+}

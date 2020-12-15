@@ -69,3 +69,27 @@ footer {
     grid-row: 3;
     grid-column: 1 / span 2;
 }
+
+#contenedor {
+    background-color: rgba(128, 128, 128, 0.288);
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 20% 40% auto;
+    grid-template-rows: repeat(3, 70px);
+    border: 1px solid green;
+}
+
+.box {
+    border: 1px solid blue;
+}
+
+.box1 {
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.box2 {
+    border: 1px solid red;
+    grid-column: 2/4;
+}
